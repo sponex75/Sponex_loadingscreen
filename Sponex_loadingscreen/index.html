@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>MP9 Roleplay - Loading Screen</title>
+</head>
+
+<body class="noselect">
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline id="background-video">
+            <source src="video/background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Centered Logo -->
+    <div class="main-container">
+        <div class="logo-wrapper">
+            <img src="logo/logo.png" alt="Server Logo" class="floating-logo">
+        </div>
+    </div>
+
+    <!-- Minimalist Footer Player -->
+    <div class="player-footer">
+        <div class="footer-left">
+            <div class="song-info">
+                <span id="song-name">Se încarcă muzica...</span>
+            </div>
+            <div class="playback-controls">
+                <button id="prevBtn" class="control-btn"><i class="fa-solid fa-backward-step"></i></button>
+                <button id="playPauseBtn" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="nextBtn" class="control-btn"><i class="fa-solid fa-forward-step"></i></button>
+                <div class="volume-container">
+                    <i class="fa-solid fa-volume-high" id="volumeIcon"></i>
+                    <input type="range" id="volumeSlider" min="0" max="100" value="20">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Thick Red Progress Bar at the very bottom -->
+        <div class="loading-progress-container">
+            <div class="loading-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="loading-audio" src="song/song1.mp3" autoplay loop></audio>
+    
+    <script src="script/main.js"></script>
+</body>
+
+</html>
