@@ -41,9 +41,15 @@ Proiectul a fost creat initial pentru comunitatea MP9, dar este acum disponibil 
 Puteti vedea o demonstratie a modului in care functioneaza si arata interfata aici:
 [Vizualizare Prezentare Video](https://youtu.be/PXxm33OfMyg)
 
+## Feedback si Comentarii
+---
+Daca folosesti acest loading screen, mi-ar face placere sa aflu parerea ta! Poti lasa un comentariu sau o sugestie in sectiunea de **Discussions** sau **Issues** a repository-ului. Orice feedback ma ajuta sa imbunatatesc proiectul.
+
 ## Credite si Suport
 ---
-Design refacut de **sponex**.
-
+Design by **sponex**.
 
 Daca intampinati probleme sau aveti intrebari, ma puteti gasi pe Discord la: **vc203042**
+
+---
+###### Tags: FiveM, Loading Screen, Minimalist, Carbon Red, MP9, Roleplay, vRP, ESX, QB-Core, Lua, UI, Custom Music, Premium Design
