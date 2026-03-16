@@ -15,8 +15,8 @@ Proiectul a fost creat initial pentru comunitatea MP9, dar este acum disponibil 
 ## Instructiuni de Instalare
 ---
 1. Descarcati arhiva si extrageti folderul in directorul `resources` al serverului.
-2. Redenumiti folderul in `mp9_loadingscreen`.
-3. Adaugati `ensure mp9_loadingscreen` in fisierul dumneavoastra `server.cfg`.
+2. Redenumiti folderul in `cum vrei tu ))`.
+3. Adaugati `ensure numele pe care ai pus la Loading` in fisierul dumneavoastra `server.cfg`.
 4. Plasati logo-ul serverului in folderul `logo` sub numele `logo.png`.
 
 ## Personalizare
